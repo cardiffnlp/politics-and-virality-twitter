@@ -33,7 +33,7 @@ sentiment_analysis_task('Today is a good day')
 Out: [{'label': 'Positive', 'score': 0.978614866733551}]
 ```
 
-# Reference paper
+## Reference paper
 
 If you use the data contained in this repository for your research, please use the following `bib` entry to cite the [reference paper](https://arxiv.org/pdf/2202.00396.pdf).
 
@@ -42,6 +42,6 @@ If you use the data contained in this repository for your research, please use t
   title={{Politics and Virality in the Time of Twitter: A Large-Scale Cross-Party Sentiment Analysis in Greece, Spain and United Kingdom}},
   author={Antypas, Dimosthenis and Preece, Alun and Camacho-Collados, Jose},
   booktitle={arXiv preprint arXiv:2202.00396},
-  year={2020}
+  year={2022}
 }
 ```
