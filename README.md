@@ -35,7 +35,7 @@ Out: [{'label': 'Positive', 'score': 0.978614866733551}]
 
 ## Reference paper
 
-If you use the data contained in this repository for your research, please use the following `bib` entry to cite the [reference paper](https://arxiv.org/pdf/2202.00396.pdf).
+For more details, please check the [reference paper](https://arxiv.org/pdf/2202.00396.pdf). If you use the data contained in this repository for your research, please cite the paper using the following `bib` entry:
 
 ```
 @inproceedings{antypas2022politics,
