@@ -1,5 +1,5 @@
 # Politics and Virality in the Time of Twitter
-Data and code accompanying the paper "Politics and Virality in the Time of Twitter".
+Data and code accompanying the paper [Politics and Virality in the Time of Twitter](https://arxiv.org/pdf/2202.00396.pdf).
 
 In specific:
 - the code used for the training of our models (./code/finetune_models.py and ./code/finetune_multi_cv.py)
@@ -31,4 +31,17 @@ sentiment_analysis_task = pipeline("sentiment-analysis", model=model, tokenizer=
 
 sentiment_analysis_task('Today is a good day')
 Out: [{'label': 'Positive', 'score': 0.978614866733551}]
+```
+
+# Reference paper
+
+If you use the data contained in this repository for your research, please use the following `bib` entry to cite the [reference paper](https://arxiv.org/pdf/2202.00396.pdf).
+
+```
+@inproceedings{antypas2022politics,
+  title={{Politics and Virality in the Time of Twitter: A Large-Scale Cross-Party Sentiment Analysis in Greece, Spain and United Kingdom}},
+  author={Antypas, Dimosthenis and Preece, Alun and Camacho-Collados, Jose},
+  booktitle={arXiv preprint arXiv:2202.00396},
+  year={2020}
+}
 ```
