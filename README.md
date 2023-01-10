@@ -19,14 +19,15 @@ In specific:
 
 
 ## Model
-While we plan to upload all the models trained for our experiments to huggingface.co, currently only the main model used in our analysis can be currently be find at: https://drive.google.com/file/d/1_Ngmh-uHGWEbKHFpKmQ1DhVf6LtDTglx/view?usp=sharing
+Our model, xlm-twitter-politics-sentiment, along with a small tutorial on how to use it can be found in [huggingface.co](https://huggingface.co/cardiffnlp/xlm-twitter-politics-sentiment).
 
-The model, 'xlm-roberta-sentiment-multilingual', is based on the implementation of 'cardiffnlp/twitter-xlm-roberta-base-sentiment' while being further finetuned on the annotated dataset.
+The model is based on the implementation of 'cardiffnlp/twitter-xlm-roberta-base-sentiment' while being further finetuned on the annotated dataset.
 
 ### Example usage
 ```
 from transformers import AutoModelForSequenceClassification, pipeline
-model = AutoModelForSequenceClassification.from_pretrained('./xlm-roberta-sentiment-multilingual/')
+
+model = AutoModelForSequenceClassification.from_pretrained('cardiffnlp/xlm-twitter-politics-sentiment')
 sentiment_analysis_task = pipeline("sentiment-analysis", model=model, tokenizer="cardiffnlp/twitter-xlm-roberta-base-sentiment")
 
 sentiment_analysis_task('Today is a good day')
