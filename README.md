@@ -1,5 +1,5 @@
-# Politics and Virality in the Time of Twitter
-Data and code accompanying the paper [Politics and Virality in the Time of Twitter](https://arxiv.org/pdf/2202.00396.pdf).
+# Negativity spreads faster: A large-scale multilingual twitter analysis on the role of sentiment in political communication
+Data and code accompanying the paper [Negativity spreads faster: A large-scale multilingual twitter analysis on the role of sentiment in political communication](https://www.sciencedirect.com/science/article/pii/S2468696423000010).
 
 In specific:
 - the code used for the training of our models (./code/finetune_models.py and ./code/finetune_multi_cv.py)
@@ -36,13 +36,16 @@ Out: [{'label': 'Positive', 'score': 0.978614866733551}]
 
 ## Reference paper
 
-For more details, please check the [reference paper](https://arxiv.org/pdf/2202.00396.pdf). If you use the data contained in this repository for your research, please cite the paper using the following `bib` entry:
+For more details, please check the [reference paper](https://www.sciencedirect.com/science/article/pii/S2468696423000010). If you use the data contained in this repository for your research, please cite the paper using the following `bib` entry:
 
 ```
-@inproceedings{antypas2022politics,
-  title={{Politics and Virality in the Time of Twitter: A Large-Scale Cross-Party Sentiment Analysis in Greece, Spain and United Kingdom}},
+@article{antypas2023negativity,
+  title={Negativity spreads faster: A large-scale multilingual twitter analysis on the role of sentiment in political communication},
   author={Antypas, Dimosthenis and Preece, Alun and Camacho-Collados, Jose},
-  booktitle={arXiv preprint arXiv:2202.00396},
-  year={2022}
+  journal={Online Social Networks and Media},
+  volume={33},
+  pages={100242},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
